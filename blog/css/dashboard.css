@@ -1,0 +1,94 @@
+body {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+/*  nav bar  */
+.row {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.row .col-md-12 ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.row .col-md-12 li {
+  float: left;
+}
+
+.row .col-md-12 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.row .col-md-12 li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+/*  volet  */
+.volet {
+	width: 100%;
+	height: 100%;
+	border-right: 3px solid grey;
+	background-color: #e6f9ff;
+}
+.volet span {
+	color: blue;
+}
+
+/* table */
+.info {
+	border-bottom: 10px grey;
+	
+	border-collapse: collapse;
+}
+
+input[type="button"] {
+	background-color: #45a049;
+	padding: 8px;
+	border-radius: 6px;
+	color: #fff;
+	width: 150px;
+}
+.row .col-md-3, .col-md-9 {
+	margin: 20px 0 20px 0; 
+}
+table, th, td {
+	border-top: 3px solid #ddd;
+}
+th, td {
+	text-align: left;
+  	padding: 8px;
+  	vertical-align: top;
+}
+
+
+
+
+/*  footer  */
+.footer {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  background: #a6a6a6;
+  color: white;
+}
+.footer p {
+  text-align: center;
+  font-style: normal;
+  font-size: 15px;
+}
